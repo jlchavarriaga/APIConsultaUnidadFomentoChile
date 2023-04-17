@@ -3,7 +3,11 @@ El Servicio de Impuestos Internos (SII) de Chile mantiene una tabla con los valo
 
 
 venv\Scripts\activate
+
 pip install -r requirements.txt
+
 uvicorn main:app --reload
+
+URL PRUEBA:
 
 http://127.0.0.1:8000/api/15-01-2022
